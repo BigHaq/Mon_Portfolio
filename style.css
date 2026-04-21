@@ -1514,8 +1514,7 @@ footer {
   }
 
   .section {
-    padding: 3rem 1.5rem;
-    /* Matching reference .section-padding */
+    padding: 4rem 1.5rem; /* Slightly more space between sections */
   }
 
   .section-label {
@@ -1608,20 +1607,45 @@ footer {
   }
 
   .about-section {
+    display: flex;
+    flex-direction: column;
     padding-top: 3rem;
     gap: 3rem;
+    text-align: left;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+
+  .about-right {
+    width: 100%;
+    gap: 2rem;
   }
 
   .about-stats {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* Back to horizontal but tight */
-    padding: 1.5rem;
-    gap: 1rem;
+    gap: 0.8rem;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 1.2rem;
     border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
   }
 
   .about-stat-number {
     font-size: 1.4rem;
+    font-weight: 800;
+  }
+
+  .about-stat-label {
+    font-size: 0.65rem;
+  }
+
+  .about-tech-box {
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1.5rem;
+    width: 100%;
   }
 
   .accordion-trigger {
@@ -1686,11 +1710,12 @@ footer {
   }
 
   .proof-card {
-    min-width: 82vw;
+    min-width: 85vw; /* Slightly larger for better focus */
     scroll-snap-align: center;
-    padding: 2rem 1.8rem;
-    border-radius: 24px;
+    padding: 1.8rem;
+    border-radius: 20px;
     background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
   }
 
   .proof-card.featured {
@@ -1849,17 +1874,18 @@ footer {
   }
 
   .contact-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 3rem;
-    text-align: center;
+    text-align: left; /* Keep it left aligned for better reading */
   }
 
-  .contact-left p {
-    max-width: 100%;
+  .contact-left {
+    width: 100%;
   }
 
   .contact-infos {
-    align-items: center;
+    align-items: flex-start;
     text-align: left;
   }
 
