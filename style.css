@@ -1517,23 +1517,34 @@ footer {
     padding: 5rem 6%;
   }
 
+  .section-label {
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 1rem;
+  }
+
   .section-title {
-    font-size: 2rem;
+    font-size: 2.8rem; /* Larger, more impact like reference */
+    line-height: 1.1;
+    font-weight: 800;
   }
 
   .hero {
-    padding: 7.5rem 5% 1rem;
-    /* Further reduced bottom spacing on mobile */
+    padding: 9rem 6% 3rem; /* More breathable */
+    min-height: auto;
   }
 
-  .section {
-    padding: 2.5rem 5%;
-    /* Tighter sections on mobile */
+  .hero h1 {
+    font-size: 3.5rem; /* Massive title on mobile */
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
   }
 
-  .proof-section {
-    padding-top: 1.5rem !important;
-    /* Specifically tighter top for testimonials */
+  .hero-sub {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.7;
+    color: var(--text-muted);
   }
 
   .hero-actions {
@@ -1546,23 +1557,23 @@ footer {
   .btn-primary {
     width: 100%;
     justify-content: center;
-    padding: 1.2rem;
+    padding: 1.3rem;
     background: var(--amber) !important;
-    /* Make it pop on mobile */
     color: var(--cream) !important;
     font-weight: 800;
-    box-shadow: 0 10px 25px rgba(230, 138, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(230, 138, 0, 0.25);
   }
 
   .btn-secondary {
     width: 100%;
     justify-content: center;
-    padding: 1.2rem;
+    padding: 1.3rem;
     color: var(--ink) !important;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    background: rgba(255, 255, 255, 0.03);
-    border-radius: 3rem;
-    text-decoration: none;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
     font-weight: 600;
   }
 
@@ -1570,42 +1581,73 @@ footer {
     flex-direction: column;
     max-width: 100%;
     background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 24px;
-    margin-top: 3rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 4rem;
+    padding: 2rem;
+    gap: 1.5rem;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
   }
 
   .hero-stat {
-    padding: 1.5rem 1rem;
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
-  .hero-stat:last-child {
-    border-bottom: none;
+  .hero-stat::after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 1.5rem;
+  }
+
+  .hero-stat:last-child::after {
+    display: none;
   }
 
   .hero-stat-num {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 900;
     color: var(--amber);
-    /* Highlighted on mobile */
+  }
+
+  .hero-stat-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   .about-section {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 4rem;
     text-align: center;
-    padding-top: 3rem;
-    /* Reduced top padding on mobile */
+    padding-top: 5rem;
+  }
+
+  .about-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-socials {
     justify-content: center;
+    margin-top: 2rem;
   }
 
   .about-stats {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr; /* Stacked for better mobile readability */
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 2.5rem;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
   }
 
   .about-stat-number {
