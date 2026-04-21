@@ -1514,144 +1514,114 @@ footer {
   }
 
   .section {
-    padding: 5rem 6%;
+    padding: 3rem 1.5rem;
+    /* Matching reference .section-padding */
   }
 
   .section-label {
-    font-size: 0.75rem;
-    letter-spacing: 0.15em;
-    margin-bottom: 1rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.8rem;
+    color: var(--amber);
   }
 
   .section-title {
-    font-size: 2.8rem; /* Larger, more impact like reference */
+    font-size: 1.8rem;
+    /* Balanced size like reference */
     line-height: 1.1;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   .hero {
-    padding: 9rem 6% 3rem; /* More breathable */
-    min-height: auto;
+    padding: 6rem 1.5rem 3rem;
+    /* Cleaner top spacing */
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .hero h1 {
-    font-size: 3.5rem; /* Massive title on mobile */
-    line-height: 1.1;
-    margin-bottom: 1.5rem;
+    font-size: 2.1rem;
+    /* Much more readable and centered */
+    line-height: 1.2;
+    margin-bottom: 1.2rem;
   }
 
   .hero-sub {
-    font-size: 1rem;
-    margin-bottom: 2.5rem;
-    line-height: 1.7;
-    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    max-width: 100%;
   }
 
   .hero-actions {
     flex-direction: column;
     width: 100%;
     gap: 1.2rem;
-    margin-top: 1rem;
+    margin-top: 0;
   }
 
-  .btn-primary {
-    width: 100%;
-    justify-content: center;
-    padding: 1.3rem;
-    background: var(--amber) !important;
-    color: var(--cream) !important;
-    font-weight: 800;
-    border-radius: 16px;
-    box-shadow: 0 15px 30px rgba(230, 138, 0, 0.25);
-  }
-
+  .btn-primary,
   .btn-secondary {
     width: 100%;
     justify-content: center;
-    padding: 1.3rem;
-    color: var(--ink) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    border-radius: 16px;
-    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.95rem;
   }
 
   .hero-stats {
-    flex-direction: column;
-    max-width: 100%;
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 24px;
-    margin-top: 4rem;
-    padding: 2rem;
+    flex-direction: row;
+    /* Horizontal on mobile but smaller */
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    margin-top: 3rem;
+    padding: 1.2rem;
     gap: 1.5rem;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   }
 
   .hero-stat {
-    padding: 0;
-    border: none;
-    display: flex;
-    flex-direction: column;
+    flex: 1;
+    min-width: 80px;
     align-items: center;
-    width: 100%;
   }
 
   .hero-stat::after {
-    content: '';
-    width: 40px;
-    height: 1px;
-    background: rgba(255, 255, 255, 0.1);
-    margin-top: 1.5rem;
-  }
-
-  .hero-stat:last-child::after {
     display: none;
+    /* Removed vertical dividers for space */
   }
 
   .hero-stat-num {
-    font-size: 2.2rem;
-    font-weight: 900;
-    color: var(--amber);
+    font-size: 1.3rem;
+    font-weight: 800;
   }
 
   .hero-stat-label {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    font-size: 0.7rem;
+    text-align: center;
   }
 
   .about-section {
-    grid-template-columns: 1fr;
-    gap: 4rem;
-    text-align: center;
-    padding-top: 5rem;
-  }
-
-  .about-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-socials {
-    justify-content: center;
-    margin-top: 2rem;
+    padding-top: 3rem;
+    gap: 3rem;
   }
 
   .about-stats {
-    grid-template-columns: 1fr; /* Stacked for better mobile readability */
-    gap: 2rem;
-    background: rgba(255, 255, 255, 0.02);
-    padding: 2.5rem;
-    border-radius: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    grid-template-columns: repeat(3, 1fr);
+    /* Back to horizontal but tight */
+    padding: 1.5rem;
+    gap: 1rem;
+    border-radius: 16px;
   }
 
   .about-stat-number {
-    font-size: 2.2rem;
+    font-size: 1.4rem;
   }
 
   .accordion-trigger {
