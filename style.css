@@ -18,6 +18,11 @@
   padding: 0;
 }
 
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -1516,6 +1521,10 @@ footer {
   .pricing-table td {
     display: block;
     width: 100%;
+  }
+
+  .pricing-table {
+    min-width: unset; /* FIX: Prevent 800px minimum width on mobile */
   }
 
   .pricing-table thead {
