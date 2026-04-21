@@ -1,51 +1,62 @@
-# Mon_Portfolio
-Mon portfolio pour mettre en avant mes services et mon savoir faire dans le domaine du web design 
+# 💎 MOHAQ — Portfolio Premium & Intégration IA
 
-Ce dépôt contient le code source de mon portfolio professionnel, Web Designer & Intégrateur IA basé à Cotonou, Bénin. Le site est conçu pour présenter mes services, mes réalisations et mes informations de contact, avec un accent sur la conversion de visiteurs en clients.
+Bienvenue dans le dépôt officiel du portfolio de **Mohamed Haq**, Web Designer & Intégrateur IA basé à Cotonou, Bénin.
 
-Structure du Projet
-Le projet est organisé en trois fichiers principaux pour une meilleure maintenabilité et séparation des préoccupations :
-• index.html : La structure principale de la page web, incluant le contenu sémantique et les liens vers les fichiers CSS et JavaScript.
-• style.css : Contient toutes les règles de style (CSS) qui définissent l'apparence visuelle du site, y compris le design réactif pour les différents appareils.
-• script.js : Gère les interactions dynamiques du site, telles que le menu de navigation mobile, les filtres de portfolio, les accordéons de services et les animations de révélation au défilement.
+Ce projet est une vitrine technologique conçue pour démontrer l'alliance entre un design **Dark Premium** de haute facture et des fonctionnalités d'automatisation avancées (IA).
 
-Fonctionnalités
-Le portfolio intègre plusieurs sections clés :
-• Navigation : Une barre de navigation fixe avec un logo, des liens vers les différentes sections du site et un bouton d'appel à l'action. Un menu burger est implémenté pour la navigation mobile.
-• Section Hero : Présentation accrocheuse des services de Mohamed Haq, avec des statistiques clés et des appels à l'action.
-• Services : Une section interactive sous forme d'accordéon détaillant les offres de services (Landing Pages, Sites Vitrines, Agents IA WhatsApp, E-commerce).
-• Témoignages : Mettant en avant les retours positifs des clients satisfaits.
-• À Propos : Une section présentant Mohamed Haq, son expertise et sa stack technique, ainsi que des liens vers ses profils sociaux.
-• Portfolio : Une grille de projets filtrable par catégorie (E-commerce, Portfolio Pro, Sites Vitrines, Landing Pages) pour présenter les réalisations.
-• Tarifs : Un tableau comparatif des différentes solutions proposées avec leurs prix de départ, délais et objectifs.
-• Contact : Un formulaire de contact détaillé pour permettre aux visiteurs de démarrer un projet, ainsi que des informations de contact directes.
-• Bouton flottant WhatsApp : Un accès rapide pour contacter Mohamed Haq via WhatsApp.
+---
 
-Technologies Utilisées
-• HTML5 : Pour la structure sémantique du contenu.
-• CSS3 : Pour le stylisme et la mise en page, incluant des variables CSS pour une gestion facile des couleurs et des médias queries pour la réactivité.
-• JavaScript : Pour les interactions dynamiques et l'amélioration de l'expérience utilisateur.
-• Google Fonts : Utilisation des polices Syne et Outfit pour une typographie moderne.
-• SVG Icons : Icônes intégrées directement en SVG pour une meilleure performance et scalabilité.
+## 🚀 Vision du Projet
 
-Installation et Utilisation:
-Pour visualiser ce portfolio localement, suivez les étapes ci-dessous :
-1. Clonez le dépôt :
-Bash
-git clone <URL_DU_DEPOT>
+L'objectif de ce portfolio est de transformer chaque visiteur en client potentiel en utilisant les meilleurs leviers de conversion :
+- **Esthétique Haut de Gamme** : Utilisation du mode sombre, de la typographie Syne/Outfit et d'effets de glassmorphisme.
+- **Preuve Sociale Immédiate** : Section témoignages interactive et statistiques de résultats.
+- **Expérience Utilisateur (UX) Fluide** : Navigation optimisée, animations de révélation (Reveal API) et réactivité totale.
 
-2. Naviguez vers le dossier du projet :
-Bash
-cd mon-portfolio
+---
 
-3.Ouvrez le fichier index.html dans votre navigateur web préféré. Vous pouvez simplement double-cliquer sur le fichier ou utiliser une extension de serveur local (comme Live Server pour VS Code) pour un rechargement automatique.
+## 🛠️ Fonctionnalités Clés
 
-Personnalisation:
-• Contenu HTML : Modifiez le fichier index.html pour mettre à jour les textes, les images, les liens et les projets de portfolio.
-• Styles CSS : Le fichier style.css contient toutes les définitions de style. Les variables CSS au début du fichier (:root) permettent de modifier facilement la palette de couleurs globale.
-• Scripts JavaScript : Le fichier script.js gère les comportements interactifs. Vous pouvez ajuster les seuils d'observation pour les animations de révélation ou modifier la logique des filtres de portfolio.
+- **Design Dark Premium** : Une interface moderne, sobre et élégante conçue pour les entrepreneurs exigeants.
+- **Accordéon de Services Interactif** : Présentation dynamique des offres (Portfolio, Landing Page, Site Vitrine, E-commerce, Agent IA).
+- **Carrousel Témoignages Mobile** : Système de défilement horizontal (Swipe) avec *scroll-snap* pour une expérience mobile irréprochable.
+- **Filtrage de Réalisations** : Galerie de projets triable par catégorie en temps réel sans rechargement de page.
+- **Intégration Sociale Complète** : Liens directs vers WhatsApp, GitHub et LinkedIn.
+- **Optimisation SEO & Performance** : Structure HTML5 sémantique, icônes SVG légères et chargement optimisé.
 
-Auteur: Haq Mohamed
+---
 
+## 🏗️ Structure du Code
 
+Le projet est construit en **Vanilla Web Stack** (sans frameworks lourds) pour garantir une vitesse de chargement foudroyante :
 
+- `index.html` : Structure sémantique complète et contenu optimisé pour le SEO.
+- `style.css` : Design système complet basé sur des variables CSS (Thème Amber & Dark). Inclut les animations complexes et le responsive design.
+- `script.js` : Moteur d'interactions (Intersection Observer pour les animations, gestion des filtres, accordéons et menu mobile).
+- `/img` : Répertoire contenant les assets visuels du projet.
+
+---
+
+## 💻 Stack Technique
+
+- **Langages** : HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+).
+- **Typographie** : Syne (Titres) & Outfit (Corps de texte) via Google Fonts.
+- **Iconographie** : Font Awesome 6.5.1 & Custom SVG.
+- **Animations** : CSS Keyframes & JavaScript Intersection Observer.
+- **Formulaire** : Intégration Formspree pour la gestion des messages sans backend.
+
+---
+
+## 👨‍💻 Auteur
+
+**Mohamed Haq**  
+*Web Designer & Intégrateur IA*  
+📍 Cotonou, Bénin  
+
+- **GitHub** : [@BigHaq](https://github.com/BigHaq)
+- **LinkedIn** : [Mohamed Haq](https://www.linkedin.com/in/mo-haq007)
+- **WhatsApp** : [+229 01 50 34 29 48](https://wa.me/2290150342948)
+
+---
+
+&copy; 2026 MOHAQ. Tous droits réservés.
