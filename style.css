@@ -763,10 +763,27 @@ nav {
 
 .about-tech-box h4 {
   font-family: 'Syne', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--ink);
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.tech-category h5 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding-bottom: 0.3rem;
 }
 
 .tech-tags {
@@ -776,19 +793,24 @@ nav {
 }
 
 .tech-tag {
-  padding: 0.4rem 0.9rem;
-  border-radius: 30px;
-  border: 1.5px solid rgba(0, 0, 0, 0.1);
-  font-size: 0.82rem;
-  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: 1.5px solid rgba(0, 0, 0, 0.05);
+  font-size: 0.8rem;
+  font-weight: 600;
   color: var(--ink);
-  background: var(--cream);
-  transition: 0.2s;
+  background: var(--white);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .tech-tag:hover {
   border-color: var(--amber);
   color: var(--amber);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(230, 138, 0, 0.1);
 }
 
 /* PORTFOLIO */
@@ -998,6 +1020,26 @@ nav {
 }
 
 .project-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.project-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.project-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--text-muted);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--ink);
