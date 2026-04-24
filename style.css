@@ -1546,7 +1546,7 @@ footer {
   }
 
   .section {
-    padding: 4rem 1.5rem; /* Slightly more space between sections */
+    padding: 5rem 1.5rem; /* Increased padding for more breathing room */
   }
 
   .section-label {
@@ -1557,10 +1557,9 @@ footer {
   }
 
   .section-title {
-    font-size: 1.8rem;
-    /* Balanced size like reference */
-    line-height: 1.1;
-    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.15;
+    font-weight: 800;
   }
 
   .hero {
@@ -1585,9 +1584,9 @@ footer {
   }
 
   .hero h1 {
-    font-size: 2.2rem;
-    line-height: 1.2;
-    margin-bottom: 1.2rem;
+    font-size: clamp(2rem, 8vw, 2.6rem); /* Responsive fluid typography */
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
     background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.7) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1655,9 +1654,10 @@ footer {
   .about-section {
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
-    gap: 3rem;
+    padding-top: 4rem;
+    gap: 4rem;
     text-align: left;
+    overflow: hidden; /* Prevent horizontal overflow */
   }
 
   .about-left {
@@ -1690,8 +1690,10 @@ footer {
 
   .about-tech-box {
     background: rgba(255, 255, 255, 0.02);
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
     width: 100%;
+    margin-top: 1rem;
+    border-radius: 24px;
   }
 
   .accordion-trigger {
@@ -1894,7 +1896,8 @@ footer {
   }
 
   .pricing-price {
-    font-size: 1.4rem;
+    font-size: 1.2rem; /* Reduced to avoid overflow */
+    font-weight: 800;
   }
 
   .pricing-delay {
