@@ -1,62 +1,62 @@
-# 💎 MOHAQ — Portfolio Premium & Intégration IA
+# 💎 MOHAQ — Des sites qui vendent. Des IA qui travaillent pour vous.
 
-Bienvenue dans le dépôt officiel du portfolio de **Mohamed Haq**, Web Designer & Intégrateur IA basé à Cotonou, Bénin.
+> **Générez plus de clients et libérez votre emploi du temps.** Je crée des interfaces ultra-performantes et des assistants intelligents pour les PME qui ne veulent pas choisir entre esthétique et efficacité.
 
-Ce projet est une vitrine technologique conçue pour démontrer l'alliance entre un design **Dark Premium** de haute facture et des fonctionnalités d'automatisation avancées (IA).
-
----
-
-## 🚀 Vision du Projet
-
-L'objectif de ce portfolio est de transformer chaque visiteur en client potentiel en utilisant les meilleurs leviers de conversion :
-- **Esthétique Haut de Gamme** : Utilisation du mode sombre, de la typographie Syne/Outfit et d'effets de glassmorphisme.
-- **Preuve Sociale Immédiate** : Section témoignages interactive et statistiques de résultats.
-- **Expérience Utilisateur (UX) Fluide** : Navigation optimisée, animations de révélation (Reveal API) et réactivité totale.
+[**Obtenir mon devis gratuit →**](https://wa.me/2290150342948) | [**Voir les réalisations**](https://github.com/BigHaq/Mon_Portfolio#portfolio)
 
 ---
 
-## 🛠️ Fonctionnalités Clés
+## 🚀 La promesse : Design Premium & Intelligence Opérationnelle
 
-- **Design Dark Premium** : Une interface moderne, sobre et élégante conçue pour les entrepreneurs exigeants.
-- **Accordéon de Services Interactif** : Présentation dynamique des offres (Portfolio, Landing Page, Site Vitrine, E-commerce, Agent IA).
-- **Carrousel Témoignages Mobile** : Système de défilement horizontal (Swipe) avec *scroll-snap* pour une expérience mobile irréprochable.
-- **Filtrage de Réalisations** : Galerie de projets triable par catégorie en temps réel sans rechargement de page.
-- **Intégration Sociale Complète** : Liens directs vers WhatsApp, GitHub et LinkedIn.
-- **Optimisation SEO & Performance** : Structure HTML5 sémantique, icônes SVG légères et chargement optimisé.
+La plupart des sites web sont de simples cartes de visite oubliées. Ce portfolio démontre comment je transforme le web en un **levier de croissance actif** pour votre business.
 
----
-
-## 🏗️ Structure du Code
-
-Le projet est construit en **Vanilla Web Stack** (sans frameworks lourds) pour garantir une vitesse de chargement foudroyante :
-
-- `index.html` : Structure sémantique complète et contenu optimisé pour le SEO.
-- `style.css` : Design système complet basé sur des variables CSS (Thème Amber & Dark). Inclut les animations complexes et le responsive design.
-- `script.js` : Moteur d'interactions (Intersection Observer pour les animations, gestion des filtres, accordéons et menu mobile).
-- `/img` : Répertoire contenant les assets visuels du projet.
+### Pourquoi collaborer avec moi ?
+- **Vendre par l'image** : Un design *Dark Premium* qui installe immédiatement une autorité et une confiance absolue auprès de vos prospects.
+- **Automatiser pour libérer** : Des intégrations IA (agents WhatsApp, automatisations de workflow) qui gèrent vos tâches répétitives pendant que vous vous concentrez sur l'essentiel.
+- **Performance foudroyante** : Code Vanilla sans frameworks lourds pour un chargement instantané (SEO & Rétention client).
 
 ---
 
-## 💻 Stack Technique
+## 🛠️ Ce que ce projet contient (Features-to-Benefits)
 
-- **Langages** : HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+).
-- **Typographie** : Syne (Titres) & Outfit (Corps de texte) via Google Fonts.
-- **Iconographie** : Font Awesome 6.5.1 & Custom SVG.
-- **Animations** : CSS Keyframes & JavaScript Intersection Observer.
-- **Formulaire** : Intégration Formspree pour la gestion des messages sans backend.
+| Fonctionnalité | Bénéfice Business |
+| :--- | :--- |
+| **Interface Liquid Glass** | Une expérience utilisateur fluide qui réduit le taux de rebond. |
+| **Filtrage Dynamique** | Permet à vos clients de trouver la solution idéale en un clic. |
+| **Preuve Sociale Intégrée** | Système de témoignages pour transformer la curiosité en confiance. |
+| **Optimisation Mobile First** | Capturez 100% de votre audience, même en déplacement. |
+| **Connecteurs IA WhatsApp** | Transformez vos simples visiteurs en leads qualifiés automatiquement. |
 
 ---
 
-## 👨‍💻 Auteur
+## 🏗️ L'Ingénierie sous le capot
+
+Pour garantir une agilité maximale et une maintenance simplifiée, j'ai choisi la **Vanilla Web Stack** :
+
+- **HTML5 Sémantique** : Meilleur référencement naturel (SEO) dès la structure.
+- **CSS3 Avancé** : Design système complet (Variables, Grid, Flexbox) pour une cohérence visuelle parfaite.
+- **JavaScript ES6+** : Interactions fluides (Intersection Observer) sans dépendances externes inutiles.
+
+---
+
+## 📈 Comment nous allons travailler ensemble
+
+1. **Stratégie (30 min)** : Appel gratuit pour définir vos objectifs et identifier vos goulots d'étranglement.
+2. **Conception UI/UX** : Création d'une interface sur-mesure alignée sur votre image de marque.
+3. **Développement & IA** : Intégration du code et des outils d'automatisation.
+4. **Lancement & Suivi** : Mise en ligne et optimisation continue.
+
+---
+
+## 👨‍💻 À propos de l'Auteur
 
 **Mohamed Haq**  
 *Web Designer & Intégrateur IA*  
-📍 Cotonou, Bénin  
+📍 Basé à Cotonou, Bénin — Disponible pour des projets internationaux.
 
-- **GitHub** : [@BigHaq](https://github.com/BigHaq)
 - **LinkedIn** : [Mohamed Haq](https://www.linkedin.com/in/mo-haq007)
+- **GitHub** : [@BigHaq](https://github.com/BigHaq)
 - **WhatsApp** : [+229 01 50 34 29 48](https://wa.me/2290150342948)
 
 ---
-
-&copy; 2026 MOHAQ. Tous droits réservés.
+&copy; 2026 MOHAQ. Transformons votre vision en machine à conversion.
