@@ -31,11 +31,19 @@ La plupart des sites web sont de simples cartes de visite oubliées. Ce portfoli
 
 ## 🏗️ L'Ingénierie sous le capot
 
-Pour garantir une agilité maximale et une maintenance simplifiée, j'ai choisi la **Vanilla Web Stack** :
+### 🌐 Frontend & Performance
+- **HTML5 Sémantique** : Structure optimisée pour le SEO et l'accessibilité.
+- **CSS3 Avancé** : Design système complet (Variables, Grid, Flexbox) pour un rendu pixel-perfect.
+- **JavaScript ES6+** : Moteur d'interactions fluides et légères.
 
-- **HTML5 Sémantique** : Meilleur référencement naturel (SEO) dès la structure.
-- **CSS3 Avancé** : Design système complet (Variables, Grid, Flexbox) pour une cohérence visuelle parfaite.
-- **JavaScript ES6+** : Interactions fluides (Intersection Observer) sans dépendances externes inutiles.
+### 🐍 Programmation & IA
+- **Python** : Scripts d'automatisation, traitement de données et intégrations IA.
+- **Langage C** : Fondations algorithmiques solides et optimisation de performance.
+- **Claude Code & Antigravity** : Développement assisté par IA de nouvelle génération pour une vitesse d'exécution inégalée.
+
+### ⚙️ Workflow & Tools
+- **Git & GitHub** : Versioning professionnel et déploiement continu.
+- **Vercel / Netlify** : Hébergement optimisé pour une disponibilité 99.9%.
 
 ---
 
