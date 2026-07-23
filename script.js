@@ -27,14 +27,40 @@ document.querySelectorAll('.accordion-trigger').forEach(trigger => {
   });
 });
 
+// FAQ Accordion Toggle
+document.querySelectorAll('.faq-trigger').forEach(trigger => {
+  trigger.addEventListener('click', () => {
+    const item = trigger.closest('.faq-item');
+    const isActive = item.classList.contains('active');
+    
+    // Fermer les autres questions
+    document.querySelectorAll('.faq-item').forEach(i => {
+      i.classList.remove('active');
+      i.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+    });
+    
+    if (!isActive) {
+      item.classList.add('active');
+      trigger.setAttribute('aria-expanded', 'true');
+    }
+  });
+});
+
 const menuBtn = document.getElementById('mobile-menu-btn');
 const navLinks = document.getElementById('nav-links');
 menuBtn.addEventListener('click', () => {
+  const isOpen = navLinks.classList.toggle('active');
   menuBtn.classList.toggle('active');
-  navLinks.classList.toggle('active');
+  menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  menuBtn.setAttribute('aria-label', isOpen ? 'Fermer le menu' : 'Ouvrir le menu');
 });
 document.querySelectorAll('.lien li a').forEach(link => {
-  link.addEventListener('click', () => { menuBtn.classList.remove('active'); navLinks.classList.remove('active'); });
+  link.addEventListener('click', () => {
+    menuBtn.classList.remove('active');
+    navLinks.classList.remove('active');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    menuBtn.setAttribute('aria-label', 'Ouvrir le menu');
+  });
 });
 
 const contactForm = document.getElementById('contact-form');

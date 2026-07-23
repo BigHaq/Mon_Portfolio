@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Fond arrondi sombre -->
+  <rect width="64" height="64" rx="14" fill="#0B0A08"/>
+  <!-- Lettre M -->
+  <text
+    x="32"
+    y="44"
+    font-family="Georgia, serif"
+    font-size="36"
+    font-weight="900"
+    text-anchor="middle"
+    fill="#FAF6EE"
+    letter-spacing="-1">M</text>
+  <!-- Point amber — signature de la marque -->
+  <circle cx="50" cy="46" r="5" fill="#E68A00"/>
+</svg>
